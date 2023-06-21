@@ -7,6 +7,7 @@ import VirtualLab from './pages/main/VirtualLab';
 import Courses from './pages/main/Courses';
 import Certificate from './pages/main/Certificate';
 
+
 function App() {
   return (
     <div className="App">
