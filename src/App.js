@@ -6,6 +6,7 @@ import Register from "./pages/auth/Register";
 import VirtualLab from './pages/main/VirtualLab';
 import Courses from './pages/main/Courses';
 import Certificate from './pages/main/Certificate';
+import Events from './pages/main/Events';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/" element={<VirtualLab />} />
           <Route path="/certificates" element={<Certificate />} />
           <Route path="/courses" element={<Courses />} />
+          <Route path="/event" element={<Events />} />
         </Routes>
       </Router>
     </div>

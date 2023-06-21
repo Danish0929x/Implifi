@@ -1,0 +1,87 @@
+.virtual-labs{
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.vl-top{
+    background: linear-gradient(250.38deg, rgb(26, 35, 31) 2.39%, rgb(19, 80, 47) 34.42%, rgb(10, 125, 62) 60.95%, rgb(31, 143, 78) 84.83%, rgb(92, 176, 122) 104.37%);
+    padding: 20px 30px;
+    margin: 40px 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 3px;
+    gap: 150px;
+}
+
+.vl-top-left{
+    padding: 10px;
+}
+
+.vl-top-left h2{
+    margin-bottom: 16px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #222222e7;
+}
+
+.vl-top-left p{
+    margin-bottom: 10px;
+    font-size: 0.85rem;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: #222222d4;
+}
+
+.vl-top-left button{
+    padding: 8px 15px;
+    margin: 14px 0px 5px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border: 1px solid #222222d4;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #222222d4;
+    font-weight: 500;
+}
+
+
+.implifi-all{
+    max-width: 1000px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ia-item{
+    background-color: rgb(30 30 30);
+    max-width: 32%;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.ia-item .ia-item-top{
+    margin: 5px 0px 10px;
+}
+
+.ia-item-top svg{
+    color: rgb(10, 125, 62);
+    padding: 8px;
+    background-color: rgba(10, 125, 62, 0.1);
+    border-radius: 3px;
+    font-size: 3.1rem;
+}
+
+.ia-item-bottom h2{
+    font-size: 1.3rem;
+    color: #c8c8c8d4;
+    margin: 5px 0px 10px;
+}
+
+.ia-item-bottom p{
+    font-size: 0.8rem;
+    color: #707070d4;
+    margin: 10px 0px 10px;
+}
