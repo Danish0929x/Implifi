@@ -8,6 +8,7 @@ import Courses from './pages/main/Courses';
 import Certificate from './pages/main/Certificate';
 import Events from './pages/main/Events';
 
+
 function App() {
   return (
     <div className="App">

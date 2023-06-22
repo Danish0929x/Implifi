@@ -25,7 +25,7 @@ function VirtualLab() {
         </div>
       </div>
 
-      <div className="implifi-all">
+      <div className="implifi-all"> 
         <div className="ia-item">
           <div className="ia-item-top">
               <MdOutlineVideoLabel />
