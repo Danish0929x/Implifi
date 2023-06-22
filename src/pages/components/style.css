@@ -80,4 +80,12 @@
     width: 1px;
     height: 40px;
 }
+.box{
+  background: #222222;
+  margin: 30px auto;
+  max-width: 1000px;
+  padding: 60px;
+  border-radius: 60px;
+  box-shadow: rgba(156, 150, 150, 0.6) 0px 18px 50px -10px;
+}
 
