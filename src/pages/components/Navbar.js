@@ -25,7 +25,7 @@ function Navbar() {
             <Link to="/events">Events</Link>
           </li>
           <li>
-            <Link to="/certificate">certificate</Link>
+            <Link to="/certificate">Certificate</Link>
           </li>
         </ul>
       </di>
