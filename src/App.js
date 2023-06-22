@@ -8,6 +8,7 @@ import Courses from './pages/main/Courses';
 import Certificate from './pages/main/Certificate';
 import Events from './pages/main/Events';
 import Profile from './pages/main/Profile';
+import Dashboard from './pages/main/Dashboard';
 
 function App() {
   return (
@@ -35,9 +36,10 @@ function RouteHandler() {
 
   return (
     <Routes>
-      <Route exact path="/" element={<VirtualLab />} />
+      <Route exact path="/" element={<Dashboard />} />
       <Route exact path="/login" element={<Login />} />
       <Route exact path="/register" element={<Register />} />
+      <Route exact path="/virtuallabs" element={<VirtualLab />} />
       <Route exact path="/courses" element={<Courses />} />
       <Route exact path="/certificate" element={<Certificate />} />
       <Route exact path="/events" element={<Events />} />

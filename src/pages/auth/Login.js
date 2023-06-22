@@ -30,7 +30,7 @@ function Login() {
     e.preventDefault();
     // Make API call here and handle response
     axios
-      .post('http://localhost:8000/auth/login', formData)
+      .post('https://implifibackend-production.up.railway.app/auth/login', formData)
       .then((response) => {
         // Assuming the API response includes a 'token' field
         console.log(response)
@@ -59,6 +59,7 @@ function Login() {
               name='email'
               value={formData.email}
               onChange={handleInputChange}
+              required
             />
           </div>
           <div className='form-group'>
@@ -68,6 +69,7 @@ function Login() {
               name='password'
               value={formData.password}
               onChange={handleInputChange}
+              required
             />
           </div>
           <Link className='forget-pass' onClick={adminHandle}>
