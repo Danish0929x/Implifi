@@ -3,12 +3,15 @@ import Navbar from "../components/Navbar";
 import ProfileLogo from "../../assets/images/profile-ph.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPen } from "@fortawesome/free-solid-svg-icons";
-import { faGitHub } from "@fortawesome/free-solid-svg-icons";
+import { MarkGithubIcon } from '@primer/octicons-react';
+import { FaLinkedin } from 'react-icons/fa';
+import { FaGlobe } from 'react-icons/fa';
 import Badge1 from "../../assets/images/1.png";
 import Badge2 from "../../assets/images/2.png";
 import Badge3 from "../../assets/images/3.png";
 import Badge4 from "../../assets/images/4.png";
 import Cert from "../../assets/images/cer.png";
+
 import "./style.css";
 
 function Profile() {
@@ -97,17 +100,20 @@ function Profile() {
             </div>
           </div>
         </div>
-        <div className="certificate-box box">
+        <div className="social-box box">
           <div className="top">
             <h2>Social</h2>
           </div>
           <h4>Link to other socials</h4>
           <div className="badge-display">
             <div className="cert-info">
-      
+            <MarkGithubIcon size={32} />
             </div>
             <div className="cert-info">
-              <p>SQL (Basic)</p>
+            <FaLinkedin size={32} />
+            </div>
+            <div className="cert-info">
+            <FaGlobe size={32} />
             </div>
           </div>
         </div>

@@ -43,7 +43,7 @@ function Navbar() {
         <FontAwesomeIcon icon={faArrowRightFromBracket} title="Logout" onClick={handleLogout} /><hr />
         <div className="profile-name">
           <p>Username</p>
-          <FontAwesomeIcon icon={faUser} className="profile-icon" />
+          <Link to="  /profile"><FontAwesomeIcon icon={faUser} className="profile-icon" /></Link>
         </div>
       </div>
     </div>

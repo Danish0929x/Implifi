@@ -1,14 +1,13 @@
-import React from "react";
-import Navbar from "../components/Navbar";
-import "./style.css";
+import React from 'react'
+import Navbar from '../components/Navbar'
 
-function Courses() {
+function Certificate() {
   return (
     <div>
       <Navbar />
-      Courses
+      Certificates
     </div>
-  );
+  )
 }
 
-export default Courses;
+export default Certificate
