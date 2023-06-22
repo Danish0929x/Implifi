@@ -7,6 +7,7 @@ import VirtualLab from './pages/main/VirtualLab';
 import Courses from './pages/main/Courses';
 import Certificate from './pages/main/Certificate';
 import Events from './pages/main/Events';
+import Profile from './pages/main/Profile';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/certificates" element={<Certificate />} />
           <Route path="/courses" element={<Courses />} />
           <Route path="/event" element={<Events />} />
+          <Route path="/profile" element={<Profile />} />
         </Routes>
       </Router>
     </div>

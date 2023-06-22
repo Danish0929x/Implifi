@@ -1,4 +1,6 @@
 .virtual-labs{
+    display: flex;
+    flex-direction: row;
     max-width: 1000px;
     margin: 20px auto;
 }
@@ -67,9 +69,10 @@
 }
 
 .ia-item-top svg{
-    color: rgb(10, 125, 62);
+    /* color: rgb(10, 125, 62); */
+    color:  rgb(15, 210, 210);
     padding: 8px;
-    background-color: rgba(10, 125, 62, 0.1);
+    background-color: rgba(15, 210, 210,0.1);
     border-radius: 3px;
     font-size: 3.1rem;
 }
@@ -84,4 +87,11 @@
     font-size: 0.8rem;
     color: #707070d4;
     margin: 10px 0px 10px;
+}
+
+/*--------------------Profile------------------------*/
+
+.profile-info{
+    background-color: red;
+    margin-left: 20%;
 }

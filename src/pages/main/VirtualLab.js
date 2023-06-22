@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import { MdOutlineVideoLabel } from 'react-icons/md';
 import { FaLaptopCode } from 'react-icons/fa';
 import { TbFileCertificate } from 'react-icons/tb';
+import { FaAngleRight } from "react-icons/fa";
 import "./style.css"
 
 function VirtualLab() {
@@ -12,7 +13,7 @@ function VirtualLab() {
       <div className="virtual-labs">
         <div className="vl-top">
           <div className="vl-top-left">
-            <h2>Welcome to Implifi</h2>
+            <h2>Welcome to Implifi, Username.</h2>
             <p>
               The purpose of a product update is to add new features, fix bugs
               or improve the performance of the product.
@@ -32,7 +33,8 @@ function VirtualLab() {
           </div>
           <div className="ia-item-bottom">
               <h2>Virtual labs</h2>
-              <p>Practice structured lab programmes for REVA University students.</p>
+              <p>Practice structured lab programmes for REVA University students. <FaAngleRight /></p>
+              
           </div>
         </div>
         <div className="ia-item">

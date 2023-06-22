@@ -3,7 +3,7 @@ import logo from "../../assets/images/logo-white.png";
 import { Link } from "react-router-dom";
 import "./style.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBell } from "@fortawesome/free-solid-svg-icons";
+import { faArrowRightFromBracket } from "@fortawesome/free-solid-svg-icons";
 import { faGear } from "@fortawesome/free-solid-svg-icons";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
 
@@ -13,7 +13,7 @@ function Navbar() {
       <Link to="/">
         <img src={logo} alt="logo" className="nav-logo" />
       </Link>
-      <di v className="nav-options"> 
+      <di v className="nav-options">
         <ul className="nav-lists">
           <li>
             <Link to="/">Virtual Labs</Link>
@@ -30,12 +30,11 @@ function Navbar() {
         </ul>
       </di>
       <div className="profile-display">
-        <FontAwesomeIcon icon={faBell} />
-        <FontAwesomeIcon icon={faGear} className="gear-icon"/> <hr />
+        <FontAwesomeIcon icon={faGear} className="gear-icon" title="Settings"/> 
+        <FontAwesomeIcon icon={faArrowRightFromBracket} title="Logout"/><hr />
         <div className="profile-name">
-          <p>Welcome, User</p>
-        <FontAwesomeIcon icon={faUser} className="profile-icon"/>
-
+          <p>Username</p>
+          <FontAwesomeIcon icon={faUser} className="profile-icon" />
         </div>
       </div>
     </div>
