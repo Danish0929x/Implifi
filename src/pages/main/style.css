@@ -153,7 +153,7 @@
   padding: 30px 20px;
 }
 .key hr {
-  width: 50vh;
+  width: 80vh;
 }
 .key-li {
     list-style-type: none;
@@ -184,4 +184,38 @@
 .education-box hr{
     width: 100%;
     margin-left: 20px;
+}
+.badge-box h4,.certificate-box h4{
+    margin-top: 10px;
+    font-weight: 300;
+}
+.certificate-box .top, .badge-box .top{
+  justify-content:start;
+}
+.badge-display{
+    background: #2d2d2d;
+    display: flex;
+    margin: 20px;
+    border-radius: 30px;
+    justify-content: space-evenly;
+}
+.badge-display > img{
+    width: 30vh;
+    cursor: pointer;
+}
+.cert-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+}
+.cert-info img{
+    width: 16vh;
+    margin: auto;
+    cursor: pointer;
+}
+.cert-info p{
+    font-weight: 700;
+    margin-top: 10px;
 }
