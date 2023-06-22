@@ -4,7 +4,8 @@
 }
 
 .vl-top{
-    background: linear-gradient(250.38deg, rgb(26, 35, 31) 2.39%, rgb(19, 80, 47) 34.42%, rgb(10, 125, 62) 60.95%, rgb(31, 143, 78) 84.83%, rgb(92, 176, 122) 104.37%);
+    background: rgb(15,210,210);
+    background: linear-gradient(110deg, rgba(15,210,210,1) 0%, rgba(12,89,112,1) 58%, rgba(2,20,25,1) 100%);
     padding: 20px 30px;
     margin: 40px 0px 20px;
     display: flex;
@@ -67,7 +68,7 @@
 }
 
 .ia-item-top svg{
-    color: rgb(10, 125, 62);
+    color: var(--aqua);
     padding: 8px;
     background-color: rgba(10, 125, 62, 0.1);
     border-radius: 3px;

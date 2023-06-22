@@ -19,13 +19,13 @@ function Navbar() {
             <Link to="/">Virtual Labs</Link>
           </li>
           <li>
-            <Link to="/">Courses</Link>
+            <Link to="/courses">Courses</Link>
           </li>
           <li>
-            <Link to="/">Events</Link>
+            <Link to="/events">Events</Link>
           </li>
           <li>
-            <Link to="/">Certification</Link>
+            <Link to="/certificate">certificate</Link>
           </li>
         </ul>
       </di>
