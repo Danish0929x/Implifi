@@ -43,6 +43,7 @@ function RouteHandler() {
       <Route exact path="/courses" element={<Courses />} />
       <Route exact path="/certificate" element={<Certificate />} />
       <Route exact path="/events" element={<Events />} />
+      <Route exact path="/Profile" element={<Profile/>} />
     </Routes>
   );
 }
