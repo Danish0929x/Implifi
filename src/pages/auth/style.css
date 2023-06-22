@@ -44,7 +44,7 @@
 
 .login-main-top a{
     text-decoration: none;
-    color: rgb(40 141 153);
+    color: var(--aqua);
     font-size: 0.9rem;
 }
 
@@ -69,12 +69,12 @@
 }
 
 .form-group input:hover{
-    border-color: rgb(40 141 153);
+    border-color: var(--aqua);
 }
 
 .forget-pass{
     text-decoration: none;
-    color: rgb(40 141 153);
+    color: var(--aqua);
     font-size: 0.9rem;
     display: inline-block;
     margin: 20px 0px 10px;
@@ -91,7 +91,7 @@
     cursor: pointer;
     font-weight: 400;
     font-size: 1rem;
-    background-color: rgb(40 141 153);
+    background-color: var(--aqua);
     color: #f5f5f5;
     transition: 0.2s;
 }
