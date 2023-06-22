@@ -93,6 +93,7 @@
 /*--------------------Profile------------------------*/
 
 .profile-info{
-    background-color: red;
-    margin-left: 20%;
+    color: #f4f4f4;
+    padding: auto;
+    margin: 0;
 }

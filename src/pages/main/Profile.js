@@ -1,14 +1,11 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import Sidebar from "../components/Sidebar";
 import "./style.css";
 
 function Profile() {
   return (
     <div className="profile-page">
       <Navbar />
-      <div className="profile-sec">
-        <Sidebar />
         <div className="profile-info">
         <h1>Hello</h1>
         <p>
@@ -21,7 +18,7 @@ function Profile() {
           ducimus laborum, dignissimos iste ipsam at voluptas possimus dolor
           odio velit cumque excepturi dolore libero dolorum.
         </p></div>
-      </div>
+ 
     </div>
   );
 }
