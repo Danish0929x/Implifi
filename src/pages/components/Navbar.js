@@ -31,7 +31,7 @@ function Navbar() {
             <Link to="/courses">Courses</Link>
           </li>
           <li>
-            <Link to="/events">Events</Link>
+            <Link to="/profile">Profile</Link>
           </li>
           <li>
             <Link to="/certificate">Certificate</Link>
