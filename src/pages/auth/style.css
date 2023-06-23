@@ -101,3 +101,15 @@
 .login-btn:hover{
     transform: scale(1.02);
 }
+
+.res{
+    color: red;
+    background-color: red;
+    width: 100%;
+    display: inline-block;
+    padding: 8px 10px;
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 0.9rem;
+}
