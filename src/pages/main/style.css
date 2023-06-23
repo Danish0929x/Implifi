@@ -251,6 +251,17 @@ svg {
 .cert-info:hover{
   background-color: #1e1e1e;
 }
+.social-info{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  cursor: pointer;
+  border-radius: 3px;
+  flex-wrap: wrap;
+}
 .cert-info img {
   width: 16vh;
   margin: auto;
@@ -280,9 +291,6 @@ svg {
 
 
 /* continue  */
-.continue{
-    
-}
 
 .continue-virtual{
     width: 1000px;

@@ -106,13 +106,13 @@ function Profile() {
           </div>
           <h4>Link to other socials</h4>
           <div className="badge-display">
-            <div className="cert-info">
+            <div className="social-info">
             <MarkGithubIcon size={32} />
             </div>
-            <div className="cert-info">
+            <div className="social-info">
             <FaLinkedin size={32} />
             </div>
-            <div className="cert-info">
+            <div className="social-info">
             <FaGlobe size={32} />
             </div>
           </div>
