@@ -7,7 +7,7 @@ import icons4 from "../../assets/images/icon4.png";
 import "./style.css";
 import Course from "../components/Course";
 
-function Courses() {
+function Certificate() {
   return (
     <div>
       <Navbar />
@@ -107,7 +107,7 @@ function Courses() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Courses;
+export default Certificate
