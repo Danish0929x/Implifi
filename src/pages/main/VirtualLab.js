@@ -27,7 +27,7 @@ function VirtualLab() {
             <Link>View all</Link>
           </div>
           <div className="cv-main">
-            <Link to="https://implifi-workspace.vercel.app/" className="cv-main-item">
+            <Link to="http://localhost:3000/arithmetic-calculator/introduction" className="cv-main-item">
               <div className="info">
                 <h2>Building an Amazon clone</h2>
                 <p>New web Tcehnologies</p>
@@ -36,7 +36,7 @@ function VirtualLab() {
                 <span className="pending">Pending</span>
               </div>
             </Link>
-            <Link to="https://implifi-workspace.vercel.app/" className="cv-main-item">
+            <Link to="http://localhost:3000/arithmetic-calculator/introduction" className="cv-main-item">
               <div className="info">
                 <h2>Artimetic operator</h2>
                 <p>Programming with python</p>
@@ -45,7 +45,7 @@ function VirtualLab() {
                 <span className="completed">Completed</span>
               </div>
             </Link>
-            <Link to="https://implifi-workspace.vercel.app/" className="cv-main-item">
+            <Link to="http://localhost:3000/arithmetic-calculator/introduction" className="cv-main-item">
               <div className="info">
                 <h2>Artimetic operator</h2>
                 <p>Programming with python</p>
@@ -54,7 +54,7 @@ function VirtualLab() {
                 <span className="completed">Completed</span>
               </div>
             </Link>
-            <Link to="https://implifi-workspace.vercel.app/" className="cv-main-item">
+            <Link to="http://localhost:3000/arithmetic-calculator/introduction" className="cv-main-item">
               <div className="info">
                 <h2>Artimetic operator</h2>
                 <p>Programming with python</p>
