@@ -19,6 +19,7 @@
 
 .vl-top-left{
     padding: 10px;
+    text-align: left;
 }
 
 .vl-top-left h2{
@@ -90,9 +91,243 @@
     margin: 10px 0px 10px;
 }
 
+.ia-item-bottom a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 0px 0px;
+    border-radius: 3px;
+    border: 1px solid var(--aqua);
+    background-color: var(--aqua);
+    padding: 5px 12px;
+    color: #222222;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: .3s ease;
+}
+
+.ia-item-bottom a:hover{
+    background-color: transparent;
+    color: var(--aqua);
+}
+
 /*--------------------Profile------------------------*/
 
 .profile-info{
     background-color: red;
     margin-left: 20%;
 }
+
+
+
+/* continue  */
+.continue{
+    
+}
+
+.continue-virtual{
+    max-width: 1000px;
+    margin: 20px auto;
+    border-radius: 3px;
+    background-color: rgb(30, 30, 30);
+    padding: 20px 0px 0px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.cv-top{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px 20px;
+    color: #c8c8c8d4;
+}
+
+.cv-top a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: var(--aqua);
+}
+
+.cv-top a:hover{
+    text-decoration: underline;
+}
+
+.cv-main{
+    padding: 0px 0px;
+}
+.cv-main-item{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.2s ease;
+    padding: 10px 20px;
+}
+
+.cv-main-item:hover{
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.cv-main-item h2{
+    color: #e4e4e4d4;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.info{
+    max-width: 60%;
+}
+.cv-main-item p{
+    color: #666666d4;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 0.9rem;
+
+}
+
+.sc-status .pending{
+    padding: 5px;
+    font-weight: 600;
+    font-size: 0.8rem;
+    border-radius: 3px;
+    border: 1PX solid rgba(255, 255, 255, 0.05);
+    color: red;
+}
+
+.sc-status .completed{
+    padding: 5px;
+    font-weight: 600;
+    font-size: 0.8rem;
+    border-radius: 3px;
+    border: 1PX solid rgba(255, 255, 255, 0.05);
+    color: green;
+}
+
+.sc-status .not-started{
+    padding: 5px;
+    font-weight: 600;
+    font-size: 0.8rem;
+    border-radius: 3px;
+    border: 1PX solid rgba(255, 255, 255, 0.05);
+    color: #767676d4;
+}
+
+.continue-workshop{
+    width: 1000px;
+    margin: 50px auto;
+}
+
+.cw-top{
+    margin: 80px 0px 30px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #c8c8c8d4;
+}
+
+.cw-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .cw-main > * {
+    flex-basis: calc(33.33% - 10px);
+    max-width: calc(33.33% - 10px);
+  }
+  
+
+
+.courses{
+    max-width: 1000px;
+    margin: 50px auto;
+}
+
+
+.head{
+    margin-top: 10px;
+    text-align: center;
+  
+  }
+  
+  .head h2{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #adadad;
+  }
+  
+  .head h2 span{
+    color: #d7d7d7d4;
+  }
+  
+  .head h3{
+    font-size: 1.3rem;
+    margin-top: 5px;
+    font-weight: 400;
+    color: #a4a4a4;
+  }
+  
+  .perks{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px 0px;
+  
+  }
+  
+  .perk{
+    width: 120px;
+    text-align: center;
+    margin: 0px 20px 10px 0px;
+    padding: 5px;
+  }
+  
+  .perk img{
+    width: 70px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #222222d4;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    
+  }
+  
+  .perk p{
+    font-size: 0.7rem;
+    margin-top: 10px;
+    color: #6e6e73;
+  }
+  
+
+  /* //virtual labs  */
+
+  .virtual-lab-do{
+    width: 1000px;
+    margin: 40px auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+
+  .virtual-lab-domain{
+    display: flex;
+    width: 1000px;
+    margin: 50px auto;
+    background-color: rgb(30, 30, 30);
+  }
+
+  .vld-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+  }

@@ -6,6 +6,8 @@ import "./style.css";
 
 function Login() {
   const [role, setRole] = useState(true);
+  const [res, setRes] = useState("");
+
   const [formData, setFormData] = useState({
     email: "",
     password: ""
@@ -22,24 +24,27 @@ function Login() {
       ...prevFormData,
       [name]: value
     }));
-    
   };
 
   const handleSubmit = (e) => {
-    console.log(formData.email,formData.password)
     e.preventDefault();
     // Make API call here and handle response
     axios
       .post('https://implifibackend-production.up.railway.app/auth/login', formData)
       .then((response) => {
         // Assuming the API response includes a 'token' field
-        console.log(response)
         const { token } = response.data;
         localStorage.setItem('token', token);
         navigate('/');
       })
       .catch((error) => {
-        console.log('Error:', error);
+        console.log("Error", error.response.data.error);
+        let currError = error.response.data.error
+        console.log(currError)
+        setRes(currError);
+        setTimeout(() => {
+          setRes("");
+        }, 2000); // Clear 'res' state after 2 seconds
       });
   };
 
@@ -78,6 +83,7 @@ function Login() {
           <button type="submit" className='login-btn'>
             Login
           </button>
+          {res && <span className='res'>{res}</span>}
         </form>
       </div>
     </div>
