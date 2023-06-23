@@ -48,7 +48,7 @@ function Navbar() {
         <hr />
         <div className="profile-name">
           <p>Username</p>
-          <Link to="  /profile"><FontAwesomeIcon icon={faUser} className="profile-icon" /></Link>
+          <Link to="/profile"><FontAwesomeIcon icon={faUser} className="profile-icon" /></Link>
         </div>
       </div>
     </div>
