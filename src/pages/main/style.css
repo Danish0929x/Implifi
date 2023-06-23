@@ -239,11 +239,17 @@ svg {
 .cert-info {
   display: flex;
   flex-direction: column;
+  margin: 20px;
   justify-content: center;
   align-items: center;
-  padding: 60px;
+  padding: 24px;
+  cursor: pointer;
+  border-radius: 3px;
   flex-wrap: wrap;
+}
 
+.cert-info:hover{
+  background-color: #1e1e1e;
 }
 .cert-info img {
   width: 16vh;
@@ -264,6 +270,10 @@ svg {
       padding: auto;
 
 }
+
+.course-heading.box h2{
+  color: #222222d4;
+}
 .course-heading.box p{
     margin-top: 20px;
 }
@@ -275,7 +285,7 @@ svg {
 }
 
 .continue-virtual{
-    max-width: 1000px;
+    width: 1000px;
     margin: 20px auto;
     border-radius: 3px;
     background-color: rgb(30, 30, 30);
@@ -335,6 +345,7 @@ svg {
     color: #666666d4;
     margin-bottom: 5px;
     font-weight: 600;
+    text-align: left;
     font-size: 0.9rem;
 
 }
@@ -472,6 +483,7 @@ svg {
     width: 1000px;
     margin: 50px auto;
     background-color: rgb(30, 30, 30);
+
   }
 
   .vld-top{
@@ -480,4 +492,17 @@ svg {
     align-items: center;
     padding: 20px;
     width: 100%;
+  }
+
+
+  .virtual-lab-domains{
+    background-color: rgb(30, 30, 30);
+
+    max-width: 1000px;
+    margin: 10px auto;
+  }
+
+  .vld-main{
+    width: 1000px !important;
+    padding: 20px 0px 0px;
   }
